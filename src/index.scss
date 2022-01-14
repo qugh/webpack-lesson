@@ -1,0 +1,37 @@
+
+html {
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+%test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.flex_container {
+  @extend %test;
+
+  svg {
+    path {
+      stroke: black;
+    }
+  }
+}

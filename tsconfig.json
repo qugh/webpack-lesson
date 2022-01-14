@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl" : "src",
+    "sourceMap": true
+  },
+  "include": [
+    "src",
+    "typed-css.d.ts",
+  ]
+}
